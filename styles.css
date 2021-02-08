@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header/Container-one flexbox Below */
+
+.container-one {
+  background-color: gray;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.containe-one-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+.one {
+  background-color: mediumslateblue;
+  flex: 1;
+  order: 1;
+  min-height: 50%;
+}
+
+.two {
+  background-color: palegoldenrod;
+  flex: 1;
+  order: 2;
+  min-height: 50%;
+}
+
+.three {
+  background-color: lightpink;
+  flex: 1;
+  order: 3;
+  min-height: 50%;
+}
+
+.four {
+  background-color: sandybrown;
+  flex: 1;
+  min-height: 50%;
+  order: 4;
+}
+/* Header/Container-one Flexbox Above */
+
+/* Main Grid Below */
+
+.grid-one {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr 3fr 1fr 3fr 1fr;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filled-background {
+  background-color: palevioletred;
+}
+
+/* Main Grid Above */
+
+/* Footer/Container-two Flexbox below */
+
+.container-two {
+  height: 20vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-two-item {
+  display: flex;
+}
+
+.first {
+  background-color: mediumslateblue;
+  min-width: 25%;
+}
+
+.second {
+  background-color: palegoldenrod;
+  min-width: 25%;
+}
+
+.third {
+  background-color: lightpink;
+  min-width: 25%;
+}
+
+.fourth {
+  background-color: sandybrown;
+  min-width: 25%;
+}
+
+/* Footer/Container-two Flexbox above */
